@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { Inter } from 'next/font/google'
 import Header from '@/Components/Desktop/Header/Header'
 import Navbar from '@/Components/Desktop/Navbar/Navbar'
+import CarSearch from '@/Components/Desktop/Car Search/CarSearch'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         
       <Header />
       <Navbar />
+      <CarSearch />
         {children}
         
         </body>
