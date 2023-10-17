@@ -2,14 +2,7 @@
 import Link from "next/link";
 import {
   Cars,
-  Camry,
-  Corolla,
-  Highlander,
-  Edge,
-  Escape,
-  Focus,
-  Accord,
-  Civic,
+  AllCars,
 } from "../../../Assets/seed";
 import { useState, useEffect } from "react";
 import "./CarSearch.css";

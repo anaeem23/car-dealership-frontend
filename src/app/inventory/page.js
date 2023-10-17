@@ -1,10 +1,15 @@
-import Link from "next/link"
+"use client";
+import Link from "next/link";
+import CarLayout from "@/Components/Desktop/CarLayout/CarLayout";
+import { Cars, AllCars } from "../../Assets/seed";
+
 export default function Inventory() {
-    return (
-      <main >
-  <Link href={'/'} >
-      <h1>Inventory Works </h1>
-      </Link>
-      </main>
-    )
-  }
+
+  return (
+    <main>
+      {AllCars.map((model) => {
+        return <CarLayout Model={model} />;
+      })}
+    </main>
+  );
+}
