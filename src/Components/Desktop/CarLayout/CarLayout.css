@@ -41,3 +41,12 @@
  .no-gutters {
      background-color: yellow
  }
+
+ .formInq {
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    
+ }

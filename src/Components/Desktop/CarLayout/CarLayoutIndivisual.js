@@ -55,6 +55,30 @@ export default function CarLayout({ Model }) {
         </div>
         <div className="col-2"></div>
       </div>
+
+      <form className="formInq">
+          Name:
+        <label>
+          <input type="text" name="name" />
+        </label>
+          Email:
+        <label>
+          <input type="text" name="email" />
+        </label>
+          Phone:
+        <label>
+          <input type="number" name="phone" />
+        </label>
+          Offer:
+        <label>
+          <input type="number" name="offer" />
+        </label>
+        Comments:
+        <label>
+          <input type="text" name="comments" />
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   );
 }

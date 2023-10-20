@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import CarLayout from "@/Components/Desktop/CarLayout/CarLayout";
+import CarLayoutIndivisual from "@/Components/Desktop/CarLayout/CarLayoutIndivisual.js";
 import { Cars, AllCars } from ".//../../../Assets/seed.js";
 import { useParams } from "next/navigation";
 
@@ -16,7 +16,7 @@ export default function Inventory_Indiviual() {
 
   return (
     <main>
-      <CarLayout Model={model} />;
+      <CarLayoutIndivisual Model={model} />;
     </main>
   );
 }

@@ -7,6 +7,7 @@ export const Cars = {
 export const AllCars = [
   {
     Name: "2007 Camry",
+    Model: "Camry",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -20,6 +21,7 @@ export const AllCars = [
 
   {
     Name: "2008 Camry",
+    Model: "Camry",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -33,6 +35,7 @@ export const AllCars = [
 
   {
     Name: "2009 Camry",
+    Model: "Camry",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -46,6 +49,7 @@ export const AllCars = [
 
   {
     Name: "2007 Corolla",
+    Model: "Corolla",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -58,6 +62,7 @@ export const AllCars = [
   },
   {
     Name: "2008 Corolla",
+    Model: "Corolla",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -70,6 +75,7 @@ export const AllCars = [
   },
   {
     Name: "2009 Corolla",
+    Model: "Corolla",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -83,6 +89,7 @@ export const AllCars = [
 
   {
     Name: "2007 Highlander",
+    Model: "Highlander",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -95,6 +102,7 @@ export const AllCars = [
   },
   {
     Name: "2008 Highlander",
+    Model: "Highlander",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -107,6 +115,7 @@ export const AllCars = [
   },
   {
     Name: "2009 Highlander",
+    Model: "Highlander",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -120,6 +129,7 @@ export const AllCars = [
 
   {
     Name: "2007 Edge",
+    Model: "Edge",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -132,6 +142,7 @@ export const AllCars = [
   },
   {
     Name: "2008 Edge",
+    Model: "Edge",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -144,6 +155,7 @@ export const AllCars = [
   },
   {
     Name: "2009 Edge",
+    Model: "Edge",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -156,6 +168,7 @@ export const AllCars = [
   },
   {
     Name: "2007 Escape",
+    Model: "Escape",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -168,6 +181,7 @@ export const AllCars = [
   },
   {
     Name: "2008 Escape",
+    Model: "Escape",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -180,6 +194,7 @@ export const AllCars = [
   },
   {
     Name: "2009 Escape",
+    Model: "Escape",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -192,6 +207,7 @@ export const AllCars = [
   },
   {
     Name: "2007 Focus",
+    Model: "Focus",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -204,6 +220,7 @@ export const AllCars = [
   },
   {
     Name: "2008 Focus",
+    Model: "Focus",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -216,6 +233,7 @@ export const AllCars = [
   },
   {
     Name: "2009 Focus",
+    Model: "Focus",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -229,6 +247,7 @@ export const AllCars = [
 
   {
     Name: "2007 Accord",
+    Model: "Accord",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -241,6 +260,7 @@ export const AllCars = [
   },
   {
     Name: "2008 Accord",
+    Model: "Accord",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -253,6 +273,7 @@ export const AllCars = [
   },
   {
     Name: "2009 Accord",
+    Model: "Accord",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -266,6 +287,7 @@ export const AllCars = [
 
   {
     Name: "2007 Civic",
+    Model: "Civic",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -278,6 +300,7 @@ export const AllCars = [
   },
   {
     Name: "2008 Civic",
+    Model: "Civic",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -290,6 +313,7 @@ export const AllCars = [
   },
   {
     Name: "2009 Civic",
+    Model: "Civic",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",

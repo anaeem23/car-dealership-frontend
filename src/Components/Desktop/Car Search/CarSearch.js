@@ -1,9 +1,6 @@
 "use client";
 import Link from "next/link";
-import {
-  Cars,
-  AllCars,
-} from "../../../Assets/seed";
+import { Cars, AllCars } from "../../../Assets/seed";
 import { useState, useEffect } from "react";
 import "./CarSearch.css";
 
@@ -29,7 +26,7 @@ export default function CarSearch() {
   }, [Make]);
   const HandleChange = (event) => {
     const Index = event.target.selectedIndex;
-    setMake({ Make: Object.values(Cars)[Index - 1] });
+    setMake({ Make: Object.values(Cars)[Index - 1], Model: event.target.value });
   };
 
   const HandleSubmit = (event) => {
@@ -40,6 +37,7 @@ export default function CarSearch() {
   console.log(Models);
   return (
     <main>
+      <h1>{Make.Model}</h1>
       <form className="form" id="MakeModel">
         <div className="formQ">
           <select placeholder="All Makes" name="Makes" onChange={HandleChange}>
@@ -70,7 +68,10 @@ export default function CarSearch() {
           </select>
           <Link
             style={{ pointerEvents: disableBTN ? "none" : "" }}
-            href={`/inventory/${chosenCar}`}
+            href={{
+              pathname: `/inventory/MAKE/${(chosenCar)}`,
+              query: { Model: Make.Model, chosenMake: chosenCar },
+            }}
           >
             <button
               disabled={disableBTN}
